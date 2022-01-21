@@ -17,3 +17,28 @@ a {
     color: #ffffff;
     text-decoration: none; /*Esto es para eliminar el subrayado*/
 }
+
+ul {
+    list-style: none; /*esto es para eliminar la vinietas que vienen por defecto*/
+}
+
+.container {
+    margin: auto; /*esto es para centrar nuestro contenido*/
+    width: 90%; /*esto quiere decir que solo se va a centrar el 90%*/
+}
+
+/*Navigation*/
+
+.nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand {
+    width: 50px; /*esto es para el tamaño del logo*/
+
+}
