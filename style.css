@@ -136,7 +136,26 @@ ul {
         text-decoration: underline; /*esto hace un subrayado en learn more*/
     }
     
+    /*CARDS BANNER ONE*/
 
+    .cards-banner-one {
+        width: 100%;
+        height: 350px;
+        background: url(./img/tech-red.jpg);
+        margin-bottom: 40px;
+    }
+
+    .cards-banner-one .content {
+        width: 40%;
+        padding: 90px 0 0 30px; /* 0 hacia abajo 0 hacia las derecha y 30px hacia a la izquierda*/
+        color:#ffffff;
+    }
+
+    .cards-banner-one p,
+    .cards-banner-one h2 {
+        /*Ok ahora vamos hacer un espaciado en los textos con margin*/
+        margin: 10px 0 20px 0px ; /*20 pixeles hacia la derecha y 0 hacia los lados*/
+    }
 
 
 
