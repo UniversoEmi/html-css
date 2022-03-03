@@ -109,7 +109,7 @@ ul {
 
     /* NEW CARDS*/
     /*Estas son las partes de la columnas donde estan las img*/
-    .news-cards {
+     .news-cards {
         display: grid; /*esto son los grid de css*/
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 25px; /*esto es un espaciodo en la img*/
@@ -125,7 +125,7 @@ ul {
         margin: 10px;
     }
 
-    new-cards a {
+    .new-cards a {
         padding: 10px 0;
         color:#ffffff;
         display:inline-block;
@@ -164,11 +164,37 @@ ul {
         height: 350px;
         background: url(./img/image-banner.jpg) no-repeat center center/cover;
      }
-     .cards-banner-two .content{
+    .cards-banner-two .content{
          width: 50%;
          padding: 100px 0 0 30px;
          
      }
+     /*Social*/
+
+    .social{
+         margin: 50px; /*Esto es margen de arriba y abajo y hacia los lados de 50px*/
+     }
+
+    .social p{
+         text-align: center; /*Esto es para que sea centrado el txto*/
+         font-size: 30px;
+         margin-bottom: 20px;
+     }
+
+     /*Esto que esta aca abajo es flexbox */
+     .links{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+
+     /*.link a{
+         margin: 0 30px;/* 0 de arriba y abajo y 30px hacia los lados */
+        }
+
+    /*.links a i{
+        font-size:3rem;
+    }
 
 
 
