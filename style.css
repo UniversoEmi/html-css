@@ -180,7 +180,7 @@ ul {
          font-size: 30px;
          margin-bottom: 20px;
      }
-
+     
      /*Esto que esta aca abajo es flexbox */
      .links{
          display: flex;
@@ -188,11 +188,11 @@ ul {
          justify-content: center;
      }
 
-     /*.link a{
+     .links a{
          margin: 0 30px;/* 0 de arriba y abajo y 30px hacia los lados */
         }
 
-    /*.links a i{
+    .links a i{
         font-size:3rem;
     }
 
