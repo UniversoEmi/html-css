@@ -76,7 +76,7 @@ ul {
     width: 100%;
     height: 550px;
     background: url(./img/Corolla.JPG) no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px; /*Esto lo hace un toke responsive*/
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ ul {
 
     .cards-banner-one .content {
         width: 40%;
-        padding: 90px 0 0 30px; /* 0 hacia abajo 0 hacia las derecha y 30px hacia a la izquierda*/
+        padding: 60px 0 0 30px; /* 0 hacia abajo 0 hacia las derecha y 30px hacia a la izquierda*/
         color:#ffffff;
     }
 
@@ -166,7 +166,7 @@ ul {
      }
     .cards-banner-two .content{
          width: 50%;
-         padding: 100px 0 0 30px;
+         padding: 90px 0 0 30px;
          
      }
      /*Social*/
@@ -227,6 +227,33 @@ ul {
         padding: 20px 0;
         text-align: center;
         padding-bottom: 20px;
+    }
+
+    @media (max-width: 700px){
+        .nav-main ul.nav-menu{  /*Esta es la primera parte de la pagina donde esta el Web Debelopent, Interligencia Artificial etc*/
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #2f3641;
+            height: 100%;
+            padding: 30px;
+            opacity: .9;
+            transform: translateX(-20px);
+
+        }
+        /*.nav-main ul.nav-menu li{
+            padding: 20px;
+            border-bottom: #ccc solid 1px;
+            font-size: 14px;
+        }*/
+        .news-cards {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .cards-banner-one .content, 
+        .cards-banner-two .content{
+            width: 95%;
+        }
     }
 
 
