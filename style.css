@@ -64,6 +64,15 @@ ul {
     margin-left: 20px;
 }
 
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    
+
+}
 /*Espaciado entre el hr*/
     hr {
         margin: 10px 0;
@@ -240,13 +249,18 @@ ul {
             padding: 30px;
             opacity: .9;
             transform: translateX(-20px);
-
         }
-        /*.nav-main ul.nav-menu li{
+        
+        .nav-main ul.nav-menu li{
             padding: 20px;
             border-bottom: #ccc solid 1px;
             font-size: 14px;
-        }*/
+        }
+
+        .nav-main ul.nav.menu-right{
+            margin-right: 40px;
+        }
+
         .news-cards {
             grid-template-columns: repeat(2, 1fr);
         }
@@ -254,7 +268,7 @@ ul {
         .cards-banner-two .content{
             width: 95%;
         }
-    }
+    
 
 
 
