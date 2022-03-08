@@ -1,0 +1,4 @@
+'IMPORTANTE'Los SCRIPT siempre van al fondo del body y arriba del main.js de otra manera el el script no funcionarà tal cual como se muestra en la img 3. EJ:
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="main.js">  </script>
