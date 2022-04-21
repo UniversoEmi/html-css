@@ -13,13 +13,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBo
     font-family: 'Noto Sans', sans-serif;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none; /*Esto es para eliminar el subrayado*/
-}
-
-ul {
-    list-style: none; /*esto es para eliminar la vinietas que vienen por defecto*/
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+    font-size: 1.5rem;
 }
 
 .container {
@@ -37,6 +37,21 @@ ul {
     height: 60px;
     padding: 20px 0;
 }
+.nav-menu-right {
+    padding: 25px 0px 0px 0px;
+}
+
+
+a {
+    color: #ffffff;
+    text-decoration: none; /*Esto es para eliminar el subrayado*/
+}
+
+ul {
+    list-style: none; /*esto es para eliminar la vinietas que vienen por defecto*/
+}
+
+
 
 .nav-brand {
     width: 50px; /*esto es para el tamaño del logo*/
@@ -55,9 +70,7 @@ ul {
     padding: 1px;
 
 }
-.nav-menu-right {
-    padding: 25px 0px 0px 0px;
-}
+
 
 .nav-main ul li a:hover {
     border-bottom: 2px solid #ffff;
@@ -67,16 +80,7 @@ ul {
     margin-left: 20px;
 }
 
-.menu-btn{
-    position: absolute;
-    cursor: pointer;
-    top: 20px;
-    right: 20px;
-    z-index: 2;
-    font-size: 1.5rem;
-    
 
-}
 /*Espaciado entre el hr*/
     hr {
         margin: 10px 0;
